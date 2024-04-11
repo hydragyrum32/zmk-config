@@ -35,6 +35,7 @@
             tapping-term-ms = <150>;
             flavor = "tap-preferred";
             quick-tap-ms = <0>;
+            require-prior-idle-ms = <75>;
         };
 
         td2: td2 {
