@@ -49,9 +49,15 @@
     combos {
         compatible = "zmk,combos";
 
+        backspaceword {
+            bindings = <&kp LC(BACKSPACE)>;
+            key-positions = <19 20>;
+        };
+
         backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <19 20>;
+            key-positions = <15 16>;
+            layers = <0>;
         };
     };
 
